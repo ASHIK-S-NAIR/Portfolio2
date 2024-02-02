@@ -27,7 +27,7 @@ const Blog = () => {
               <p className="blog-index-date">February 1, 2024</p>
             </div>
             <div className="blog-index-right">
-              <Link to="/blog/Understanding the Backbone of the Internet">
+              <Link to="/blog/Understanding_the_Backbone_of_the_Internet">
                 <h2 className="blog-index-header">
                   Understanding the Backbone of the Internet: HTTP, HTTPS, SMTP,
                   DNS, TCP, UDP, and WebSocket Explained
@@ -45,7 +45,7 @@ const Blog = () => {
               <p className="blog-index-date">February 1, 2024</p>
             </div>
             <div className="blog-index-right">
-              <Link to="/blog/Demystifying Network Address Translation">
+              <Link to="/blog/Demystifying_Network_Address_Translation">
                 <h2 className="blog-index-header">
                 Demystifying Network Address Translation (NAT): Bridging the Gap Between Private and Public IP Addresses
                 </h2>

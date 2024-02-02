@@ -61,7 +61,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/blog/Understanding the Backbone of the Internet"
+            path="/blog/Understanding_the_Backbone_of_the_Internet"
             element={
               <section className="blogItem-container">
               <Understanding_OSI_Model />
@@ -71,7 +71,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/blog/Demystifying Network Address Translation"
+            path="/blog/Demystifying_Network_Address_Translation"
             element={
               <section className="blogItem-container">
               <Understanding_OSI_Model />

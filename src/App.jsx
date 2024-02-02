@@ -17,8 +17,8 @@ import Contact from "./components/Contact";
 import Thankyou from "./components/Thankyou";
 import Blog from "./components/Blog";
 import { Understanding_OSI_Model } from "./components/blogs/Understanding_OSI_Model";
-import { Blog2 } from "./components/blogs/blog2";
-import { Blog3 } from "./components/blogs/Blog3";
+// import { Blog2 } from "./components/blogs/blog2";
+// import { Blog3 } from "./components/blogs/Blog3";
 
 function App() {
   return (
@@ -64,7 +64,8 @@ function App() {
             path="/blog/Understanding the Backbone of the Internet"
             element={
               <section className="blogItem-container">
-                <Blog2 />
+              <Understanding_OSI_Model />
+                <FooterBottom />
                 <FooterBottom />
               </section>
             }
@@ -73,7 +74,8 @@ function App() {
             path="/blog/Demystifying Network Address Translation"
             element={
               <section className="blogItem-container">
-                <Blog3 />
+              <Understanding_OSI_Model />
+                <FooterBottom />
                 <FooterBottom />
               </section>
             }

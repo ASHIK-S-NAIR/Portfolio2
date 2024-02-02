@@ -18,8 +18,7 @@ import Thankyou from "./components/Thankyou";
 import Blog from "./components/Blog";
 import { Understanding_OSI_Model } from "./components/blogs/Understanding_OSI_Model";
 import { Blog3 } from "./components/blogs/Blog3";
-// import { Blog2 } from "./components/blogs/blog2";
-// import { Blog3 } from "./components/blogs/Blog3";
+import { Blog2 } from "./components/blogs/blog2";
 
 function App() {
   return (
@@ -65,7 +64,7 @@ function App() {
             path="/blog/Understanding_the_Backbone_of_the_Internet"
             element={
               <section className="blogItem-container">
-                <Understanding_OSI_Model />
+                <Blog2 />
                 <FooterBottom />
               </section>
             }

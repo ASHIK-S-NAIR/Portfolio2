@@ -53,8 +53,8 @@ function Navigation() {
             </li>
             <li className="navigation-li" onClick={toggle}>
               {" "}
-              <HashLink to="/#process-id" className="navigation-a">
-                <span>02</span>PROCESS{" "}
+              <HashLink to="/blog" className="navigation-a">
+                <span>02</span>BLOG{" "}
               </HashLink>{" "}
             </li>
             <li className="navigation-li" onClick={toggle}>

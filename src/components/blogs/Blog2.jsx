@@ -19,7 +19,7 @@ export const Blog2 = () => {
           </div>
         </div>
         <hr />
-        {/* <div className="blogItem-body-sec">
+        <div className="blogItem-body-sec">
           <div className="blogItem-body-left">
             <div className="blogItem-body-identifier">
               <img
@@ -125,7 +125,7 @@ export const Blog2 = () => {
               where low-latency communication is crucial.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

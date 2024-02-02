@@ -19,7 +19,7 @@ export const Blog3 = () => {
           </div>
         </div>
         <hr />
-        {/* <div className="blogItem-body-sec">
+        <div className="blogItem-body-sec">
           <div className="blogItem-body-left">
             <div className="blogItem-body-identifier">
               <img
@@ -81,7 +81,7 @@ export const Blog3 = () => {
               obscurity and protection.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

@@ -19,12 +19,14 @@ import Blog from "./components/Blog";
 import { Understanding_OSI_Model } from "./components/blogs/Understanding_OSI_Model";
 import { Blog3 } from "./components/blogs/Blog3";
 import { Blog2 } from "./components/blogs/blog2";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Cursor />
+        <ScrollToTop />
         <Navigation />
         <Routes>
           <Route

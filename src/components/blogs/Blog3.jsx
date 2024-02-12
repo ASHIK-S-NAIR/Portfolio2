@@ -1,7 +1,7 @@
 export const Blog3 = () => {
   return (
     <div className="blogItem-body-right">
-            <p className="blogItem-body-p">
+            {/* <p className="blogItem-body-p">
               The primary purpose of NAT is to convert a private address within
               a private or local network to a public address. NAT was originally
               designed to solve the limited IP address problem. Before the rise
@@ -41,7 +41,7 @@ export const Blog3 = () => {
               addresses of devices from external networks. Only the NAT device's
               public IP address is visible on the Internet, adding a layer of
               obscurity and protection.
-            </p>
+            </p> */}
           </div>
   );
 };

@@ -1,6 +1,4 @@
-import Understanding_OSI_Model_img1 from "../../images/Understanding_OSI_Model_img1.png";
-
-const Blog4 = () => {
+export const Blog4 = () => {
   return (
     <div className="blogItem-body-right">
       <p className="blogItem-body-p">
@@ -50,4 +48,3 @@ const Blog4 = () => {
   );
 };
 
-export default Blog4;

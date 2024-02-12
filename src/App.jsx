@@ -16,12 +16,11 @@ import FooterBottom from "./components/FooterBottom";
 import Contact from "./components/Contact";
 import Thankyou from "./components/Thankyou";
 import Blog from "./components/Blog";
-import { Blog1 } from "./components/blogs/Blog1";
-import { Blog2 } from "./components/blogs/blog2";
-import { Blog3 } from "./components/blogs/Blog3";
-import Blog4 from "./components/blogs/Blog4";
+
 import ScrollToTop from "./components/ScrollToTop";
 import { BlogTemplate } from "./components/BlogTemplate";
+import { Blog1 } from "./components/blogs/Blog1";
+import { Blog4 } from "./components/blogs/Blog4";
 
 function App() {
   return (
@@ -78,7 +77,7 @@ function App() {
                   heading="
 Understanding the Backbone of the Internet: HTTP, HTTPS, SMTP, DNS, TCP, UDP, and WebSocket Explained"
                   tags="BACKEND NETWORKING"
-                  blogBody={Blog2}
+                  blogBody={Blog1}
                 />
                 <FooterBottom />
               </section>
@@ -93,7 +92,7 @@ Understanding the Backbone of the Internet: HTTP, HTTPS, SMTP, DNS, TCP, UDP, an
                   heading="
 Demystifying Network Address Translation (NAT): Bridging the Gap Between Private and Public IP Addresses"
                   tags="BACKEND NETWORKING"
-                  blogBody={Blog3}
+                  blogBody={Blog4}
                 />
                 <FooterBottom />
               </section>

@@ -1,42 +1,8 @@
-import Ashik from "../../images/favicon.png";
 import Understanding_OSI_Model_img1 from "../../images/Understanding_OSI_Model_img1.png";
 
-export const Understanding_OSI_Model = () => {
+export const Blog1 = () => {
   return (
-    <section className="blogItem-section">
-      <div className="wrap blogItem-wrap">
-        <div className="blogItem-header-sec">
-          <p className="blogItem-date">January 26, 2024</p>
-          <h1 className="blogItem-header">Understanding OSI Model</h1>
-          <div className="blogItem-body-identifier blogItem-header-identifier-tab">
-            <img src={Ashik} alt="" className="blogItem-body-identifier-img" />
-            <div className="blogItem-body-identifier-info">
-              <p className="blogItem-body-identifier-name">Ashik S Nair</p>
-              <p className="blogItem-body-identifier-id">Ashik</p>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div className="blogItem-body-sec">
-          <div className="blogItem-body-left">
-            <div className="blogItem-body-identifier">
-              <img
-                src={Ashik}
-                alt=""
-                className="blogItem-body-identifier-img"
-              />
-              <div className="blogItem-body-identifier-info">
-                <p className="blogItem-body-identifier-name">Ashik S Nair</p>
-                <p className="blogItem-body-identifier-id">Ashik</p>
-              </div>
-            </div>
-            <hr />
-            <div className="blogItem-body-tag-sec">
-              <p className="blogItem-body-tag-header">TAGS</p>
-              <p className="blogItem-body-tags">NETWORKING BACKEND</p>
-            </div>
-          </div>
-          <div className="blogItem-body-right">
+    <div className="blogItem-body-right">
             <p className="blogItem-body-p">
               The OSI (Open Systems Interconnection) model is a conceptual
               framework for understanding network communication protocols. It is
@@ -95,8 +61,5 @@ export const Understanding_OSI_Model = () => {
               applications on different devices.
             </p>
           </div>
-        </div>
-      </div>
-    </section>
   );
 };

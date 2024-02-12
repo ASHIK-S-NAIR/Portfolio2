@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   /* color */
@@ -17,6 +18,7 @@
   --primary-font: "Fahkwang", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --tertiary-font: "Bungee Outline", cursive;
+  --blog-font: "Lora", serif;
 
   /* font size */
   --heading-fontSize: clamp(1.724rem, 4vw, 2.813rem);
@@ -24,6 +26,7 @@
   --subheading-fontSize: clamp(0.959rem, 2.5vw, 1.563rem);
   --p-fontSize: clamp(0.614rem, 2vw, 1rem);
   --outline-fontSize: clamp(3.865rem, 8vw, 6.875rem);
+  --blog-fontSize: clamp(0.7rem, 2.1vw, 1.18rem);
 
   /* line-height */
   --heading-lineHeight: clamp(2.606rem, 5vw, 4.25rem);
@@ -37,6 +40,7 @@
   --subheading-fontWeight: 400;
   --p-fontWeight: 600;
   --outline-fontWeight: 100;
+  --blog-fontWeight: 400;
 }
 
 /* custom scroll-bar starts */
@@ -1497,7 +1501,7 @@ button {
   text-align: center;
 }
 
-.blogItem-header-identifier-tab{
+.blogItem-header-identifier-tab {
   display: none;
 }
 
@@ -1513,7 +1517,7 @@ button {
   margin-bottom: 2.5em;
 }
 
-.blogItem-header-identifier-tab{
+.blogItem-header-identifier-tab {
   display: none;
 }
 
@@ -1578,10 +1582,10 @@ button {
 }
 
 .blogItem-body-p {
-  font-family: var(--secondary-font);
-  font-size: var(--p-fontSize);
+  font-family: var(--blog-font);
+  font-size: var(--blog-fontSize);
   line-height: var(--p-lineHeight);
-  font-weight: var(--p-fontWeight);
+  font-weight: var(--blog-fontWeight);
   margin-bottom: 2em;
 }
 

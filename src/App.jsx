@@ -16,10 +16,12 @@ import FooterBottom from "./components/FooterBottom";
 import Contact from "./components/Contact";
 import Thankyou from "./components/Thankyou";
 import Blog from "./components/Blog";
-import { Understanding_OSI_Model } from "./components/blogs/Understanding_OSI_Model";
-import { Blog3 } from "./components/blogs/Blog3";
+import { Blog1 } from "./components/blogs/Blog1";
 import { Blog2 } from "./components/blogs/blog2";
+import { Blog3 } from "./components/blogs/Blog3";
+import Blog4 from "./components/blogs/Blog4";
 import ScrollToTop from "./components/ScrollToTop";
+import { BlogTemplate } from "./components/BlogTemplate";
 
 function App() {
   return (
@@ -57,7 +59,12 @@ function App() {
             path="/blog/understading_osi_model"
             element={
               <section className="blogItem-container">
-                <Understanding_OSI_Model />
+                <BlogTemplate
+                  date="January 24 2024"
+                  heading="Understanding OSI Model"
+                  tags="BACKEND NETWORKING"
+                  blogBody={Blog1}
+                />
                 <FooterBottom />
               </section>
             }
@@ -66,7 +73,13 @@ function App() {
             path="/blog/Understanding_the_Backbone_of_the_Internet"
             element={
               <section className="blogItem-container">
-                <Blog2 />
+                <BlogTemplate
+                  date="January 30 2024"
+                  heading="
+Understanding the Backbone of the Internet: HTTP, HTTPS, SMTP, DNS, TCP, UDP, and WebSocket Explained"
+                  tags="BACKEND NETWORKING"
+                  blogBody={Blog2}
+                />
                 <FooterBottom />
               </section>
             }
@@ -75,7 +88,28 @@ function App() {
             path="/blog/Demystifying_Network_Address_Translation"
             element={
               <section className="blogItem-container">
-                <Blog3 />
+                <BlogTemplate
+                  date="February 1 2024"
+                  heading="
+Demystifying Network Address Translation (NAT): Bridging the Gap Between Private and Public IP Addresses"
+                  tags="BACKEND NETWORKING"
+                  blogBody={Blog3}
+                />
+                <FooterBottom />
+              </section>
+            }
+          ></Route>
+          <Route
+            path="/blog/Unveiling_the_Power_of_Webhooks_in_Modern_Server_Architecture"
+            element={
+              <section className="blogItem-container">
+                <BlogTemplate
+                  date="February 12 2024"
+                  heading="
+                  Unveiling the Power of Webhooks in Modern Server Architecture"
+                  tags="BACKEND COMMUNICATION"
+                  blogBody={Blog4}
+                />
                 <FooterBottom />
               </section>
             }

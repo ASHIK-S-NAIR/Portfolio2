@@ -1,44 +1,6 @@
-import Ashik from "../../images/favicon.png";
-
 export const Blog3 = () => {
   return (
-    <section className="blogItem-section">
-      <div className="wrap blogItem-wrap">
-        <div className="blogItem-header-sec">
-          <p className="blogItem-date">February 1, 2024</p>
-          <h1 className="blogItem-header">
-            Demystifying Network Address Translation (NAT): Bridging the Gap
-            Between Private and Public IP Addresses
-          </h1>
-          <div className="blogItem-body-identifier blogItem-header-identifier-tab">
-            <img src={Ashik} alt="" className="blogItem-body-identifier-img" />
-            <div className="blogItem-body-identifier-info">
-              <p className="blogItem-body-identifier-name">Ashik S Nair</p>
-              <p className="blogItem-body-identifier-id">Ashik</p>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div className="blogItem-body-sec">
-          <div className="blogItem-body-left">
-            <div className="blogItem-body-identifier">
-              <img
-                src={Ashik}
-                alt=""
-                className="blogItem-body-identifier-img"
-              />
-              <div className="blogItem-body-identifier-info">
-                <p className="blogItem-body-identifier-name">Ashik S Nair</p>
-                <p className="blogItem-body-identifier-id">Ashik</p>
-              </div>
-            </div>
-            <hr />
-            <div className="blogItem-body-tag-sec">
-              <p className="blogItem-body-tag-header">TAGS</p>
-              <p className="blogItem-body-tags">NETWORKING BACKEND</p>
-            </div>
-          </div>
-          <div className="blogItem-body-right">
+    <div className="blogItem-body-right">
             <p className="blogItem-body-p">
               The primary purpose of NAT is to convert a private address within
               a private or local network to a public address. NAT was originally
@@ -81,8 +43,5 @@ export const Blog3 = () => {
               obscurity and protection.
             </p>
           </div>
-        </div>
-      </div>
-    </section>
   );
 };

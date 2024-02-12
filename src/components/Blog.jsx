@@ -15,7 +15,9 @@ const Blog = () => {
             </div>
             <div className="blog-index-right">
               <Link to="/blog/understading_osi_model">
-                <h2 className="blog-index-header">From Physical to Application: Demystifying OSI Model Layers</h2>
+                <h2 className="blog-index-header">
+                  From Physical to Application: Demystifying OSI Model Layers
+                </h2>
               </Link>
               <div className="blog-index-tag-sec">
                 <p className="blog-index-tag">NETWORKING BACKEND</p>
@@ -47,13 +49,27 @@ const Blog = () => {
             <div className="blog-index-right">
               <Link to="/blog/Demystifying_Network_Address_Translation">
                 <h2 className="blog-index-header">
-                Demystifying Network Address Translation (NAT): Bridging the Gap Between Private and Public IP Addresses
+                  Demystifying Network Address Translation (NAT): Bridging the
+                  Gap Between Private and Public IP Addresses
                 </h2>
               </Link>
               <div className="blog-index-tag-sec">
-                <p className="blog-index-tag">
-                  NETWORKING BACKEND
-                </p>
+                <p className="blog-index-tag">NETWORKING BACKEND</p>
+              </div>
+            </div>
+          </div>
+          <div className="blog-index">
+            <div className="blog-index-left">
+              <p className="blog-index-date">February 12, 2024</p>
+            </div>
+            <div className="blog-index-right">
+              <Link to="/blog/Unveiling_the_Power_of_Webhooks_in_Modern_Server_Architecture">
+                <h2 className="blog-index-header">
+                  Unveiling the Power of Webhooks in Modern Server Architecture
+                </h2>
+              </Link>
+              <div className="blog-index-tag-sec">
+                <p className="blog-index-tag">BACKEND COMMUNICATION</p>
               </div>
             </div>
           </div>

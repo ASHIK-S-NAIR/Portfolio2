@@ -19,8 +19,9 @@ import Blog from "./components/Blog";
 
 import ScrollToTop from "./components/ScrollToTop";
 import { BlogTemplate } from "./components/BlogTemplate";
-import { Blog1 } from "./components/blogs/Blog1";
+
 import { Blog4 } from "./components/blogs/Blog4";
+import Blog1 from "./components/blogs/Blog1";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import Understanding_OSI_Model_img1 from "../../images/Understanding_OSI_Model_img1.png";
 
-export const Blog1 = () => {
+const Blog1 = () => {
   return (
     <div className="blogItem-body-right">
             <p className="blogItem-body-p">
@@ -61,5 +61,7 @@ export const Blog1 = () => {
               applications on different devices.
             </p>
           </div>
-  );
-};
+  )
+}
+
+export default Blog1

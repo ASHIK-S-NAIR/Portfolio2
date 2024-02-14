@@ -22,6 +22,7 @@ import { BlogTemplate } from "./components/BlogTemplate";
 
 import { Blog4 } from "./components/blogs/Blog4";
 import Blog1 from "./components/blogs/Blog1";
+import Blog2 from "./components/blogs/blog2";
 
 function App() {
   return (
@@ -78,7 +79,7 @@ function App() {
                   heading="
 Understanding the Backbone of the Internet: HTTP, HTTPS, SMTP, DNS, TCP, UDP, and WebSocket Explained"
                   tags="BACKEND NETWORKING"
-                  blogBody={Blog1}
+                  blogBody={Blog2}
                 />
                 <FooterBottom />
               </section>

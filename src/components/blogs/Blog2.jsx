@@ -1,4 +1,6 @@
-export const Blog2 = () => {
+import React from "react";
+
+const Blog2 = () => {
   return (
     <div className="blogItem-body-right">
       <p className="blogItem-body-p">
@@ -81,3 +83,5 @@ export const Blog2 = () => {
     </div>
   );
 };
+
+export default Blog2;

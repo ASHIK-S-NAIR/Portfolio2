@@ -1,5 +1,3 @@
-import React from "react";
-
 const Blog2 = () => {
   return (
     <div className="blogItem-body-right">

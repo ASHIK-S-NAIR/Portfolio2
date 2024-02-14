@@ -22,7 +22,7 @@ import { BlogTemplate } from "./components/BlogTemplate";
 
 import { Blog4 } from "./components/blogs/Blog4";
 import Blog1 from "./components/blogs/Blog1";
-import Blog2 from "./components/blogs/blog2";
+import Blog2 from "./components/blogs/Blog2";
 
 function App() {
   return (

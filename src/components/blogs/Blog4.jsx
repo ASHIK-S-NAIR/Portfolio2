@@ -1,4 +1,4 @@
-export const Blog4 = () => {
+const Blog4 = () => {
   return (
     <div className="blogItem-body-right">
       <p className="blogItem-body-p">
@@ -48,3 +48,4 @@ export const Blog4 = () => {
   );
 };
 
+export default Blog4;

@@ -1,6 +1,11 @@
 export const faqs = [
+  // {
+  //   question: "How much will it cost to get started working with you?",
+  //   answer:
+  //     "I charge on an hourly basis, the total cost for a project is up to how many hours were taken for it, only the productive hours are counted.Cost can also change concerning the requirements like the number of pages, features, and period. I also take contract projects for fixed prices and periods.",
+  // },
   {
-    question: "How much will it cost to get started working with you?",
+    question: "Which is more enjoyable to you frontend or backend ??",
     answer:
       "I charge on an hourly basis, the total cost for a project is up to how many hours were taken for it, only the productive hours are counted.Cost can also change concerning the requirements like the number of pages, features, and period. I also take contract projects for fixed prices and periods.",
   },

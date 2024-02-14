@@ -16,7 +16,7 @@ export const BlogTemplate = ({ date, heading, tags, blogBody: BlogBody }) => {
             </div>
           </div>
         </div>
-        <hr />
+        <hr className="blogItem-hr" />
         <div className="blogItem-body-sec">
           <div className="blogItem-body-left">
             <div className="blogItem-body-identifier">

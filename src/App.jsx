@@ -63,7 +63,7 @@ function App() {
               <section className="blogItem-container">
                 <BlogTemplate
                   date="January 24 2024"
-                  heading="Understanding OSI Model"
+                  heading="From Physical to Application: Demystifying OSI Model Layers"
                   tags="BACKEND NETWORKING"
                   blogBody={Blog1}
                 />

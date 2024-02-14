@@ -23,23 +23,28 @@ function Navigation() {
         <Link to="/" className="navigation-logo-a">
           <h1 className="navigation-logo">ASHIK S NAIR</h1>
         </Link>
-        <div
-          className="navigation-handburger-section"
-          ref={handburger}
-          onClick={toggle}
-        >
+        <div className="navigation-route-sec">
+          <Link to="/blog">
+            <h1 className="navigation-route">Blog</h1>
+          </Link>
           <div
-            className="navigation-handburger-one"
-            ref={navigation_section_one}
-          ></div>
-          <div
-            className="navigation-handburger-two"
-            ref={navigation_section_two}
-          ></div>
-          <div
-            className="navigation-handburger-three"
-            ref={navigation_section_three}
-          ></div>
+            className="navigation-handburger-section"
+            ref={handburger}
+            onClick={toggle}
+          >
+            <div
+              className="navigation-handburger-one"
+              ref={navigation_section_one}
+            ></div>
+            <div
+              className="navigation-handburger-two"
+              ref={navigation_section_two}
+            ></div>
+            <div
+              className="navigation-handburger-three"
+              ref={navigation_section_three}
+            ></div>
+          </div>
         </div>
       </div>
       <div className="navigation-menu" ref={menu}>

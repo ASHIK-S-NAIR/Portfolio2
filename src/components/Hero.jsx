@@ -72,7 +72,7 @@ function Hero() {
           <div className="hero-info-btns">
             <a href="/#projects-id" className="hero-info-a">
               <button className="hero-info-btn cta-interative cta-SMPP">
-                <p>SEE MY PAST PROJECTS</p>
+                <p>SEE MY PROJECTS</p>
                 <img src={Arrow} alt="" />
               </button>
             </a>

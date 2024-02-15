@@ -25,11 +25,17 @@ function Footer() {
     <section className="footer-section" id="footer">
       <div className="wrap footer-wrap">
         <div className="footer-container">
-          <h3 className="footer-container-subheading">
+          {/* <h3 className="footer-container-subheading">
             Thinking about a Professional Website?
+          </h3> */}
+          <h3 className="footer-container-subheading">
+            Do you think I'm an interesting person ?
           </h3>
-          <h1 className="footer-container-heading">
+          {/* <h1 className="footer-container-heading">
             LET'S WORK <span>TOGETHER?</span>
+          </h1> */}
+          <h1 className="footer-container-heading">
+            LET US <span>CONNECT</span>
           </h1>
           <div className="footer-cta-section">
             <Link to="/contact">
@@ -44,7 +50,7 @@ function Footer() {
               }`}
               onClick={CopyToClipboard}
             >
-              ashik@ashiksudhakaran.com
+              aashiq5342@gmail.com
             </button>
           </div>
         </div>

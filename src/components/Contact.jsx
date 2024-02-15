@@ -7,7 +7,7 @@ function Contact() {
         <div className="contact-form-section">
           <form
             className="contact-form"
-            action="https://formsubmit.co/ashik@ashiksudhakaran.com"
+            action="https://formsubmit.co/aashiq5342@gmail.com"
             method="POST"
           >
             <div className="contact-form-row">
@@ -61,7 +61,7 @@ function Contact() {
             <input
               type="hidden"
               name="_next"
-              value="https://ashiksudhakaran.com/thankyou"
+              value="https://ashiksnair.netlify.app/thankyou"
             />
 
             <input type="hidden" name="_cc" value="aashiq5342@gmail.com" />

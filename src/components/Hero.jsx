@@ -27,7 +27,7 @@ function Hero() {
       <div className="wrap hero-wrap">
         <div className="hero-info-section">
           <h3 className="hero-info-title">
-            HELLO THERE, MY NAME IS <span>ASHIK</span>, CALL SIGN <span>ASHI</span>
+            HELLO THERE, MY NAME IS <span>ASHIK</span>,
           </h3>
           {/* <h1 className="hero-info-heading">
             I’am a freelance web developer <span> innovating professional</span>{" "}

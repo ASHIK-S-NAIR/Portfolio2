@@ -737,9 +737,13 @@ button {
 .projects-container {
   height: auto;
   margin: 2em auto;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1em;
+  row-gap: 5em;
 }
 
 .projects-left-section {
@@ -866,6 +870,36 @@ button {
 
 .projects-down-btn {
   transform: rotate(180deg);
+}
+
+.projects-project-sec{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+
+.projects-project-img{
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-radius: 5px 5px 0 0;
+}
+.projects-project-heading{
+  font-size: var(--subheading-fontSize);
+  line-height: var(--subheading-lineHeight);
+  font-weight: var(--subheading-fontWeight);
+  font-family: var(--secondary-font);
+  margin-bottom: 0.3em;
+}
+
+.projects-project-p{
+  width: 100%;
+  font-family: var(--secondary-font);
+  font-size: clamp(0.5rem, 1.7vw, 0.95rem);
+  /* line-height: clamp(1.225rem, 2.6vw, 1.9rem); */
+  line-height: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1em;
 }
 
 /* projects section endss */

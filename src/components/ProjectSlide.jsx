@@ -1,4 +1,3 @@
-
 function ProjectSlide({
   heading,
   description,

@@ -43,7 +43,7 @@ function App() {
                 <Projects />
                 <About />
                 <FAQs />
-                <TIPS />
+                {/* <TIPS /> */}
                 <Footer />
               </section>
             }

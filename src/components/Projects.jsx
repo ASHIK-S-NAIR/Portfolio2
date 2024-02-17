@@ -32,7 +32,7 @@ function Projects() {
         <img src={img} alt="" className="projects-project-img" />
         <div className="projects-project-details">
           <h3 className="projects-project-heading">{heading}</h3>
-          {/* <p className="projects-project-p">{detail}</p> */}
+          <p className="projects-project-p">{detail}</p>
           <div className="project-cta-section">
             <a href={siteUrl} target="_blank" rel="noopener noreferrer">
               <button className="cta-GL">VISIT SITE</button>

@@ -737,12 +737,10 @@ button {
 .projects-container {
   height: auto;
   margin: 2em auto;
-  /* display: flex;
-  align-items: center; */
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5em;
   row-gap: 5em;
 }
 
@@ -875,14 +873,18 @@ button {
 .projects-project-sec{
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  padding: 1.5em;
+  box-shadow: 0px 5px 20px -3px rgba(0,0,0,0.1);
 }
 
 .projects-project-img{
   width: 100%;
   margin-bottom: 1.5em;
   border-radius: 5px 5px 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .projects-project-heading{
   font-size: var(--subheading-fontSize);
@@ -896,7 +898,6 @@ button {
   width: 100%;
   font-family: var(--secondary-font);
   font-size: clamp(0.5rem, 1.7vw, 0.95rem);
-  /* line-height: clamp(1.225rem, 2.6vw, 1.9rem); */
   line-height: 1.3rem;
   font-weight: 500;
   margin-bottom: 1em;

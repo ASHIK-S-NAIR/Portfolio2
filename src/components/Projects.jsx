@@ -153,46 +153,36 @@ function Projects() {
         </div> */}
         <ProjectTemplate
           img={freshFromFarmProjectImg}
-          heading="Fresh From Farm"
-          detail="The website aims at clients who want to own their dream home with
-              no extra effort. Further provides an organized collection of
-              houses on sale at different locations with their price."
+          heading="Fresh From Farm (Grocery Delivery App)"
+          detail="A grocery delivery app with role-based authentication, order placement, updates, tracking, and online payment through RazorPay."
           siteUrl="https://freshfromfarmshop.netlify.app/"
           gitUrl="https://github.com/ASHIK-S-NAIR/fresh-from-farm"
         />
         <ProjectTemplate
           img={optEngineProjectImg}
           heading="OptEngine"
-          detail="The website aims at clients who want to own their dream home with
-              no extra effort. Further provides an organized collection of
-              houses on sale at different locations with their price."
+          detail="Web application that extracts word counts, web URLs and image links from web pages. User authentication and automated storage of insights in the database."
           siteUrl="https://optengine.netlify.app/"
           gitUrl="https://github.com/ASHIK-S-NAIR/URL-Info-Backend"
         />
         <ProjectTemplate
           img={ecCureProjectImg}
           heading="EcCure"
-          detail="The website aims at clients who want to own their dream home with
-              no extra effort. Further provides an organized collection of
-              houses on sale at different locations with their price."
+          detail="Web application is available to help individuals who require service on their mobile device due to damage. The platform showcases all available service packages and promotions."
           siteUrl="https://eccure.netlify.app/"
           gitUrl="https://github.com/ASHIK-S-NAIR/ecCure-frontend"
         />
         <ProjectTemplate
           img={homeForSaleProjectImg}
           heading="Home For Sale"
-          detail="The website aims at clients who want to own their dream home with
-              no extra effort. Further provides an organized collection of
-              houses on sale at different locations with their price."
+          detail="Web application that offers an organized collection of houses for sale at different locations with their prices, catering to clients who want to own their dream home without any extra effort."
           siteUrl="https://homeforsaleagency.netlify.app/"
           gitUrl="https://github.com/ASHIK-S-NAIR/homeforsale"
         />
         <ProjectTemplate
           img={vincaProjectImg}
           heading="Vinca Consultancy"
-          detail="The website aims at clients who want to own their dream home with
-              no extra effort. Further provides an organized collection of
-              houses on sale at different locations with their price."
+          detail="A web application that showcases a company's services and enhances its credibility."
           siteUrl="https://vincaconsultancy.netlify.app/"
           gitUrl="https://github.com/ASHIK-S-NAIR/Vinca---Work-Risk-Free-Consultancy"
         />
